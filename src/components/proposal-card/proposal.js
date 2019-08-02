@@ -123,7 +123,7 @@ Proposal.propTypes = {
   AddressDetails: object,
   details: object.isRequired,
   isLiked: bool.isRequired,
-  likeCount: number.isRequired,
+  likeCount: number,
   likeProposal: func.isRequired,
   title: string,
   history: object.isRequired,
